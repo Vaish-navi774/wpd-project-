@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            width: 30%;
+            background: #00274d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .sidebar img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .main-content {
+            width: 70%;
+            padding: 20px;
+        }
+        .progress-bar {
+            background: lightgray;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .progress {
+            background: #ffcc00;
+            width: 80%;
+            padding: 5px;
+            text-align: center;
+            color: black;
+        }
+        input, label {
+            display: block;
+            margin: 5px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <img src="image.jpg" alt="Profile Image">
+        <h2>Enter Name</h2>
+        <input type="text" id="username" name="username">
+    </div>
+
+    <div class="main-content">
+        <h2>Objective</h2>
+        <label for="objective">Information About Client</label>
+        <input type="text" id="objective" name="objective">
+
+        <h2>Experience</h2>
+        <label for="company">Current Company</label>
+        <input type="text" id="company" name="company">
+
+        <label for="start-date">Start Date</label>
+        <input type="date" id="start-date" name="start-date">
+
+        <label for="end-date">End Date</label>
+        <input type="date" id="end-date" name="end-date">
+
+        <label for="details">Details</label>
+        <input type="text" id="details" name="details">
+
+        <h2>Education</h2>
+        <label for="degree">Course/Degree</label>
+        <input type="text" id="degree" name="degree">
+
+        <label for="university">University</label>
+        <input type="text" id="university" name="university">
+
+        <label for="score">Grade/Score</label>
+        <input type="text" id="score" name="score">
+
+        <h2>Achievement</h2>
+        <label for="certificate">Certificate/Award</label>
+        <input type="text" id="certificate" name="certificate">
+
+        <h2>Projects</h2>
+        <label for="project">Project Name</label>
+        <input type="text" id="project" name="project">
+
+        <h2>Reference</h2>
+        <label for="reference">Where did you hear about our company?</label>
+        <input type="text" id="reference" name="reference">
+    </div>
+</div>
+
+</head>
+</html>
